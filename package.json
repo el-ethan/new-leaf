@@ -1,6 +1,6 @@
 {
   "name": "new-leaf",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Quickly create scaffolding for test driven React components with TypeScript",
   "repository": {
     "type": "git",
