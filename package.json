@@ -1,12 +1,20 @@
 {
   "name": "new-leaf",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Quickly create scaffolding for test driven React components with TypeScript",
   "repository": {
     "type": "git",
     "url": "https://github.com/el-ethan/new-leaf"
   },
-  "keywords": ["react", "reactjs", "tdd", "scss", "scaffolding", "typescript", "jsx"],
+  "keywords": [
+    "react",
+    "reactjs",
+    "tdd",
+    "scss",
+    "scaffolding",
+    "typescript",
+    "jsx"
+  ],
   "main": "index.ts",
   "scripts": {
     "start": "babel-node -x \".ts\" ./index.ts",
