@@ -1,8 +1,12 @@
 {
   "name": "new-leaf",
-  "version": "1.0.0",
-  "description": "quickly create scaffolding for test driven react components",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Quickly create scaffolding for test driven React components with TypeScript",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/el-ethan/new-leaf"
+  },
+  "main": "index.ts",
   "scripts": {
     "start": "babel-node -x \".ts\" ./index.ts",
     "test": "jest",
@@ -11,7 +15,7 @@
   "bin": {
     "new-leaf": "./lib/index.js"
   },
-  "author": "",
+  "author": "el-ethan",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.9.6",
