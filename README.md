@@ -1,6 +1,6 @@
 # New Leaf
 
-New Leaf is a tool for quickly scaffolding a new React component following a very specific structure. Running the command will create the shell a React component in a `.tsx` file, with an interface for its props, along with a test file `.test.tsx` and a stylesheet `.scss`. All of these files will be contained inside a new folder with the same name as the component.
+New Leaf is a tool for quickly scaffolding a new React component following a very specific structure. Running the command will create the shell of a React component in a `.tsx` file, with an interface for its props, along with a test file `.test.tsx` and a stylesheet `.scss`. All of these files will be contained inside a new folder with the same name as the component.
 
 # Usage
 
@@ -22,9 +22,8 @@ This command will create the following file structure in `/tmp/`:
 
 The files will contain the following boilerplate (boilerplate subject to change):
 
-## MyNewComponent.tsx
-
 ```typescript
+// MyNewComponent.tsx
 import React, { FunctionComponent } from 'react';
 import './MyNewComponent.scss';
 
@@ -42,9 +41,8 @@ export const MyNewComponent:FunctionComponent<MyNewComponentProps> = ({}) => {
 }
 ```
 
-## MyNewComponent.test.tsx
-
 ```typescript
+// MyNewComponent.test.tsx
 import React from 'react';
 import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
@@ -65,9 +63,8 @@ describe('MyNewComponent', () => {
 });
 ```
 
-## MyNewComponent.scss
-
 ```css
+/* MyNewComponent.scss */
 MyNewComponent {
 
 }

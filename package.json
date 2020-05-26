@@ -6,6 +6,7 @@
     "type": "git",
     "url": "https://github.com/el-ethan/new-leaf"
   },
+  "keywords": ["react", "reactjs", "tdd", "scss", "scaffolding", "typescript", "jsx"],
   "main": "index.ts",
   "scripts": {
     "start": "babel-node -x \".ts\" ./index.ts",
