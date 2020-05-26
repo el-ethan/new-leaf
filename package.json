@@ -1,0 +1,35 @@
+{
+  "name": "new-leaf",
+  "version": "1.0.0",
+  "description": "quickly create scaffolding for test driven react components",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node -x \".ts\" ./index.ts",
+    "test": "jest",
+    "build": "tsc -p ."
+  },
+  "bin": {
+    "new-leaf": "./lib/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
+    "@babel/plugin-transform-runtime": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.9.6",
+    "@types/rimraf": "^3.0.0",
+    "commander": "^5.1.0",
+    "fsify": "^4.0.1"
+  }
+}
