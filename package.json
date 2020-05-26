@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "Quickly create scaffolding for test driven React components with TypeScript",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/el-ethan/new-leaf"
+    "type": "git",
+    "url": "https://github.com/el-ethan/new-leaf"
   },
   "main": "index.ts",
   "scripts": {
@@ -25,6 +25,7 @@
     "@babel/plugin-transform-runtime": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
     "@babel/preset-typescript": "^7.9.0",
+    "@types/rimraf": "^3.0.0",
     "@types/jest": "^25.2.3",
     "jest": "^26.0.1",
     "rimraf": "^3.0.2",
@@ -32,7 +33,6 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.9.6",
-    "@types/rimraf": "^3.0.0",
     "commander": "^5.1.0",
     "fsify": "^4.0.1"
   }

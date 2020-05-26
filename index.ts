@@ -8,9 +8,9 @@ import { createDirectoryAndFiles, createFsifier } from './fileCreators';
 export function newLeaf() {
     program
         .option('-p, --path <path>', 'path to component root')
-        .option('-n, --name <name>', 'component name');
+        .option('-n, --component-name <name>', 'component name');
     program.parse(process.argv);
-    createDirectoryAndFiles(createFsifier(program.path), program.name);
+    createDirectoryAndFiles(createFsifier(program.path), program.componentName);
 }
 
 newLeaf();

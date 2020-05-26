@@ -8,8 +8,7 @@ export function createFsifier(path:string):Fsify {
 
 
 const getTestFileContents = (componentName:string):string => {
-    return `
-import React from 'react';
+    return `import React from 'react';
 import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
 
@@ -30,15 +29,13 @@ describe('${componentName}', () => {
 }
 
 const getScssFileContents = (componentName:string):string => {
-    return `
-${componentName} {
+    return `${componentName} {
 
 }`;
 }
 
 const getCodeFileContents = (componentName: string):string => {
-    return `
-import React, { FunctionComponent } from 'react';
+    return `import React, { FunctionComponent } from 'react';
 import './${componentName}.scss';
 
 
@@ -48,7 +45,9 @@ interface ${componentName}Props {
 
 export const ${componentName}:FunctionComponent<${componentName}Props> = ({}) => {
     return (
-        <div></div>
+        <React.Fragment>
+
+        </React.Fragment>
     );
 }`;
 }
