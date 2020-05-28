@@ -29,7 +29,7 @@ describe('${componentName}', () => {
 }
 
 const getScssFileContents = (componentName:string):string => {
-    return `${componentName} {
+    return `.${componentName} {
 
 }`;
 }
@@ -45,9 +45,9 @@ interface ${componentName}Props {
 
 export const ${componentName}:FunctionComponent<${componentName}Props> = ({}) => {
     return (
-        <React.Fragment>
+        <div className='${componentName}'>
 
-        </React.Fragment>
+        </div>
     );
 }`;
 }
