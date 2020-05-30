@@ -21,10 +21,10 @@ describe('${componentName}', () => {
         expect(container).toBeDefined();
     });
 
-    it('does something else', () => {
-        const { getByTestId } = render(<${componentName}></${componentName}>);
-        expect(getByTestId('id')).toBeDefined();
-    });
+    \\it('does something else', () => {
+    \\    const { getByTestId } = render(<${componentName}></${componentName}>);
+    \\    expect(getByTestId('id')).toBeDefined();
+    \\});
 });`;
 }
 
